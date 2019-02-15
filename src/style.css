@@ -7,32 +7,44 @@ html{
     line-height: 1.8em;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
-   
-    
+
    
 }
 
 #header{
     display: flex;
     flex-wrap: initial;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-weight: 600;
 
 }
-#navbar li{
-    display: inline-block;
+
+#header, h1 {
+    text-align: left;
+}
+
+#navbar li, a{
+    color: #D5159E;
+    display: block;
+    text-decoration: none;
+    margin-left: 1.5em;
+
+    
+}
+
+#navbar li, a:hover{
+    color: white;
+
     
 }
 
 #projects{
     display: flex;
     flex-wrap: wrap;
-    flex: 3em;
+    justify-content: space-evenly;
     height: flex;
     text-align: center;
-    width: 100%;
-    
-    
+    width: flex;
    
 }
 
@@ -42,11 +54,22 @@ html{
     padding: .5em;
     padding-top: .02em;
     flex: 1;
+
 }
 
 
 footer{
     display: flex;
+    justify-content: space-between;
+}
+
+.edu-degree{
+    margin-bottom: .15em;
+}
+
+.edu-name{
+    margin-top: .15em;
+    margin-bottom: .15em;
 }
 
 #work, ul, li{
@@ -78,3 +101,13 @@ footer{
        padding: 1.5em;
     }
 }
+
+@media screen and (min-width: 750px) {
+    html {
+       padding-left: 15%;
+       padding-right: 15%;
+       padding-top: 1.5em;
+    }
+}
+
+
