@@ -10,19 +10,22 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!--Custom Font Roboto-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
       <header id="header">
+        <img id="headshot" src="../headshot.jpg" alt="Headshot">
         <h1>Connor Reilly</h1>  
         <nav id="navbar">  
           <ul>
             <li><a href="#intro">Me</a></li>  
             <li><a href="#work">Resume</a></li>  
             <li><a href="#projects">Work</a></li>  
-            <li><a href="#social">Social</a></li>  
           </ul>
         </nav>
         
@@ -30,6 +33,7 @@
       </header>
       <main id="content">
         <header id="intro">
+         
             <p>I build things for the web, dabble in Salesforce administration, and 
                 have my Masters in Information Technology & Management with a focus in Software 
                 Development. When I'm not building websites or optimizing processes with Saleforce, you 
@@ -97,8 +101,9 @@
                 </article>
           </article>
         </section>
-
+        <h2>My Work</h2>
         <section id="projects">
+         
           <article class="proj">
             <h3>Dog Image Generator</h3>
             <p>This project uses an ajax call to hit an API to render random dog images.
@@ -113,12 +118,31 @@
             <p>this is information about a projec that i've completed</p>
           </article>
         </section>
-
+        
       </main>
 
       <footer>
-        <p>Copyright Connor Reilly, All Rights Reserved.</p>
-        <p>Built with vanilla HTML, CSS, and Javascript. No fancy frameworks or libraries here.</p>
+        <article id="copyright-social">
+          <p id="copyright">Made by Connor Reilly © 2019</p>
+          <section id="social">
+              <a href="https://www.linkedin.com/in/connorrreilly/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/ConnorRReilly"><i class="fab fa-twitter"></i></a>
+              <a href = "mailto: reillyc3@gmail.com"><i class="fas fa-envelope"></i></a>
+            </section>
+        </article>
+        
+        <p id="footer-para">Built with vanilla HTML, CSS, and Javascript. No fancy frameworks or libraries here.</p>
+       
+        <section>
+          <nav id="navbar">  
+            <ul>
+              <li><a href="#intro">Me</a></li>  
+              <li><a href="#work">Resume</a></li>  
+              <li><a href="#projects">Work</a></li>   
+            </ul>
+          </nav>
+        </section>
+      
   
       </footer>
         

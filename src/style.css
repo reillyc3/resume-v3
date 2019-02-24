@@ -1,7 +1,7 @@
 
 html{
     background-color: #3F7FBF;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.125em;
     color: white;
     line-height: 1.8em;
@@ -24,7 +24,7 @@ html{
 }
 
 #navbar li, a{
-    color: #D5159E;
+    color: #001f35;
     display: block;
     text-decoration: none;
     margin-left: 1.5em;
@@ -35,7 +35,6 @@ html{
 #navbar li, a:hover{
     color: white;
 
-    
 }
 
 #projects{
@@ -49,7 +48,7 @@ html{
 }
 
 .proj{
-    background-color: gray;
+    background-color: #001f35;
     margin: .25em;
     padding: .5em;
     padding-top: .02em;
@@ -57,10 +56,35 @@ html{
 
 }
 
+#social{
+    display: inline-flex;
+    padding: 0;
+    
+    
 
-footer{
+}
+
+#social, a{ 
+   padding: 0
+}
+
+#social, i:hover{
+    color: white;
+}
+
+footer  {
     display: flex;
+    flex: wrap;
     justify-content: space-between;
+  
+}
+#footer-para{
+    margin-left: 1.5em;
+    font-size: .75em;
+}
+
+#copyright{
+    font-size: .75em;
 }
 
 .edu-degree{
@@ -79,22 +103,38 @@ footer{
 
 .position{
     margin-bottom: .15em;
+    color: #001f35;
 }
 
 .emp-name{
     margin-top: .15em;
-    margin-bottom: .15em;
+    margin-bottom: 0;
     font-size: 1em;
     font-weight: 400;
 }
 
 .emp-date{
-    margin-top: .15em;
+    margin-top: 0;
     margin-bottom: .15em;
     font-size: .75em;
     font-weight: 100;
 }
-/* media */
+
+#headshot{
+ border-radius: 50%;
+ max-width: 100%;
+ max-height: 5em;
+ margin: .5em;
+
+ 
+}
+
+#intro{
+    display: inline-flex;
+    text-align: center;
+}
+
+
 
 @media screen and (min-width: 385px) {
     html {
