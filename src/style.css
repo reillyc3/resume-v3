@@ -56,6 +56,11 @@ html{
 
 }
 
+.proj:hover{
+    background-color: white;
+    color: #001f35;
+}
+
 #social{
     display: inline-flex;
     padding: 0;
@@ -76,6 +81,8 @@ footer  {
     display: flex;
     flex: wrap;
     justify-content: space-between;
+    padding-top: 2em;
+    margin-top: 1em;
   
 }
 #footer-para{
@@ -132,6 +139,13 @@ footer  {
 #intro{
     display: inline-flex;
     text-align: center;
+    color: #001f35;
+    height: 460px;
+    padding-top: 10%;
+}
+
+#git{
+    margin-left: 0;
 }
 
 
